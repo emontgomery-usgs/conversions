@@ -1,0 +1,21 @@
+name: CONVERT-waves2
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.5
+  - numpy
+  - netCDF4
+  - cf_units
+  - thredds_crawler>=1.2.0
+  - pandas
+  - requests
+  - pyaxiom>=1.2.0
+  - pytz
+  - coloredlogs
+  - libnetcdf
+  - pygc
+  - pytest
+  - nb_conda_kernels
+  - spyder

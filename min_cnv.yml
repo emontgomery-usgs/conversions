@@ -1,0 +1,14 @@
+name: MINcnv
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.6
+  - numpy
+  - netCDF4
+  - libnetcdf
+  - owslib
+  - xarray
+  - nb_conda_kernels
+
